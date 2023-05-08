@@ -34,6 +34,11 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
+  i18n: {
+    locales: ['uk-UA', 'en'],
+    defaultLocale: 'uk-UA',
+  },
+
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
