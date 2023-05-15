@@ -1,0 +1,44 @@
+:root {
+  --white: #fff;
+  --white-dark: #f5f5f7;
+  --gray: #999c9e;
+  --gray-light: #b6b7b9;
+  --gray-dark: #707070;
+  --gray-bg: #eeedef;
+  --black: #000;
+  --black-light: #292c36;
+  --primary: #fef200;
+  --primary2: #fff136;
+  --primary-light: #fff794;
+  --primary-dark: #d0c701;
+  --primary-dark2: #777200;
+
+  --xs: 0;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
+
+  --container: 100%;
+
+  @media (min-width: 576px) {
+    --container: 540px;
+  }
+
+  @media (min-width: 768px) {
+    --container: 720px;
+  }
+
+  @media (min-width: 992px) {
+    --container: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    --container: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    --container: 1320px;
+  }
+}
