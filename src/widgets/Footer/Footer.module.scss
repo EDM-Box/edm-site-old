@@ -1,0 +1,20 @@
+.footer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyWrapper {
+  color: var(--gray);
+  font-size: 12px;
+}
+
+.linkWrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  a {
+    margin-left: 20px;
+  }
+}
