@@ -1,7 +1,10 @@
-/** @type {import('next').NextConfig} */
-import path from 'path';
+// @ts-check
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { i18n } = require('./next-i18next.config.js');
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
+  i18n,
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) => rule.test?.test?.('.svg'));
@@ -34,15 +37,7 @@ const nextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
-  i18n: {
-    locales: ['uk-UA', 'en'],
-    defaultLocale: 'uk-UA',
-  },
-
   reactStrictMode: true,
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
 };
 
 module.exports = nextConfig;
