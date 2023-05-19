@@ -9,12 +9,22 @@
 .copyWrapper {
   color: var(--gray);
   font-size: 12px;
+
+  span {
+    display: inline-block;
+  }
 }
 
 .linkWrapper {
   display: grid;
   grid-template-columns: auto auto;
+  gap: 0 20px;
+
   a {
-    margin-left: 20px;
+    font-size: 12px;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
