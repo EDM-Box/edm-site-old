@@ -1,6 +1,10 @@
 .header {
   height: 100%;
   display: grid;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 100%;
   align-items: center;
+  justify-content: space-between;
+
+  grid-template-areas: '. . .';
 }
