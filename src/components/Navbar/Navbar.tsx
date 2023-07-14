@@ -26,6 +26,7 @@ export const Navbar = ({ className, ...props }: NavbarProps): JSX.Element => {
               {t(item.name)}
             </Link>
           );
+
         return (
           <div key={item.name} className={styles.subMenu}>
             <Link

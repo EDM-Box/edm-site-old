@@ -1,4 +1,4 @@
-export default {
+const config = {
   title: "EDM-Box",
   menuRouts: [
     {
@@ -85,3 +85,5 @@ export default {
     },
   ],
 };
+
+export default config;

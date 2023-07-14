@@ -5,6 +5,7 @@ import { useTranslation } from "next-i18next";
 
 function Home() {
   const { t } = useTranslation();
+
   return (
     <main className={styles.main}>
       <h1>{t("HELLO_WORLD")}</h1>
