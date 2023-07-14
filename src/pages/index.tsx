@@ -27,7 +27,3 @@ export async function getStaticProps(context: any) {
     },
   };
 }
-
-function test(ddd: number): number {
-  return Number("test");
-}
