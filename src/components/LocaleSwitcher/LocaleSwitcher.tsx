@@ -1,9 +1,9 @@
-import cn from 'classnames';
-import styles from './LocaleSwitcher.module.scss';
-import { LocaleSwitcherProps } from './LocaleSwitcher.props';
-import { usePathname } from 'next/navigation';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import cn from "classnames";
+import styles from "./LocaleSwitcher.module.scss";
+import { LocaleSwitcherProps } from "./LocaleSwitcher.props";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 export const LocaleSwitcher = ({ children, className, ...props }: LocaleSwitcherProps): JSX.Element => {
   const useRouters = useRouter();

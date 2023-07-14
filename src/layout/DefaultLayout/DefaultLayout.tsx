@@ -1,9 +1,9 @@
-import { Header, Footer, Slider, Sidebar } from '@/widgets';
-import styles from './DefaultLayout.module.scss';
-import { DefaultLayoutProps } from './DefaultLayout.props';
+import { Header, Footer, Slider, Sidebar } from "@/widgets";
+import styles from "./DefaultLayout.module.scss";
+import { DefaultLayoutProps } from "./DefaultLayout.props";
 
-import { AppContextProvider, IAppContext } from '@/context/app.context';
-import { FunctionComponent } from 'react';
+import { AppContextProvider, IAppContext } from "@/context/app.context";
+import { FunctionComponent } from "react";
 
 const Layout = ({ children, showSlider }: DefaultLayoutProps): JSX.Element => {
   return (

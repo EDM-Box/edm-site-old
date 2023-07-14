@@ -1,14 +1,14 @@
-import cn from 'classnames';
-import styles from './Navbar.module.scss';
-import { NavbarProps } from './Navbar.props';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import config from '@src/config';
+import cn from "classnames";
+import styles from "./Navbar.module.scss";
+import { NavbarProps } from "./Navbar.props";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import config from "@src/config";
 
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from "next-i18next";
 
 export const Navbar = ({ className, ...props }: NavbarProps): JSX.Element => {
-  const { t } = useTranslation('menu');
+  const { t } = useTranslation("menu");
   const router = useRouter();
 
   return (

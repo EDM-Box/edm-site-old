@@ -12,33 +12,31 @@
   --primary-light: #fff794;
   --primary-dark: #d0c701;
   --primary-dark2: #777200;
-
   --xs: 0;
   --sm: 576px;
   --md: 768px;
   --lg: 992px;
   --xl: 1200px;
   --xxl: 1400px;
-
   --container: 100%;
 
-  @media (min-width: 576px) {
+  @media (width >= 576px) {
     --container: 540px;
   }
 
-  @media (min-width: 768px) {
+  @media (width >= 768px) {
     --container: 720px;
   }
 
-  @media (min-width: 992px) {
+  @media (width >= 992px) {
     --container: 960px;
   }
 
-  @media (min-width: 1200px) {
+  @media (width >= 1200px) {
     --container: 1140px;
   }
 
-  @media (min-width: 1400px) {
+  @media (width >= 1400px) {
     --container: 1320px;
   }
 }

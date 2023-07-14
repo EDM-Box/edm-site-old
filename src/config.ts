@@ -1,88 +1,87 @@
-/* eslint-disable import/no-anonymous-default-export */
 export default {
-  title: 'EDM-Box',
+  title: "EDM-Box",
   menuRouts: [
     {
-      name: 'home',
-      rout: '/',
+      name: "home",
+      rout: "/",
     },
     {
-      name: 'events',
-      rout: '/events',
+      name: "events",
+      rout: "/events",
     },
     {
-      name: 'projects',
-      rout: '/projects',
+      name: "projects",
+      rout: "/projects",
       subMenu: [
         {
-          name: 'festivals',
-          rout: '/festivals',
+          name: "festivals",
+          rout: "/festivals",
         },
         {
-          name: 'raves',
-          rout: '/raves',
+          name: "raves",
+          rout: "/raves",
         },
         {
-          name: 'parties',
-          rout: '/parties',
+          name: "parties",
+          rout: "/parties",
         },
         {
-          name: 'clubs-parties',
-          rout: '/clubs-parties',
+          name: "clubs-parties",
+          rout: "/clubs-parties",
         },
       ],
     },
     {
-      name: 'places',
-      rout: '/places',
+      name: "places",
+      rout: "/places",
       subMenu: [
         {
-          name: 'clubs',
-          rout: '/clubs',
+          name: "clubs",
+          rout: "/clubs",
         },
         {
-          name: 'dance bars',
-          rout: '/dance-bars',
+          name: "dance bars",
+          rout: "/dance-bars",
         },
         {
-          name: 'locations',
-          rout: '/locations',
+          name: "locations",
+          rout: "/locations",
         },
       ],
     },
     {
-      name: 'peoples',
-      rout: '/edm-box',
+      name: "peoples",
+      rout: "/edm-box",
     },
     {
-      name: 'blog',
-      rout: '/blog',
+      name: "blog",
+      rout: "/blog",
       subMenu: [
         {
-          name: 'news',
-          rout: '/news',
+          name: "news",
+          rout: "/news",
         },
         {
-          name: 'styles',
-          rout: '/styles',
+          name: "styles",
+          rout: "/styles",
         },
         {
-          name: 'interview',
-          rout: '/interview',
+          name: "interview",
+          rout: "/interview",
         },
         {
-          name: 'podcasts',
-          rout: '/podcasts',
+          name: "podcasts",
+          rout: "/podcasts",
         },
         {
-          name: 'streams',
-          rout: '/streams',
+          name: "streams",
+          rout: "/streams",
         },
       ],
     },
     {
-      name: 'edm-box',
-      rout: '/edm-box',
+      name: "edm-box",
+      rout: "/edm-box",
     },
   ],
 };

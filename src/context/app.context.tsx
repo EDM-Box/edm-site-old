@@ -1,5 +1,5 @@
-import { createContext, PropsWithChildren, useState } from 'react';
-import { FirstLevelMenuItem, FirstLevelMenuRoute } from '../types/menu.interface';
+import { createContext, PropsWithChildren, useState } from "react";
+import { FirstLevelMenuItem, FirstLevelMenuRoute } from "../types/menu.interface";
 
 export interface IAppContext {
   menu: FirstLevelMenuItem[];

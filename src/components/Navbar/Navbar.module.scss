@@ -1,47 +1,54 @@
 .navbar {
   display: grid;
+  grid-template-areas: ". . . . . . .";
   gap: 0 20px;
   justify-content: start;
-  grid-template-areas: '. . . . . . .';
 }
 
 .subMenu {
   position: relative;
+
+  ul {
+    position: absolute;
+    padding: 10px 5px;
+
+    // display: none;
+    list-style: none;
+    background: var(--black-light);
+  }
+
   &:hover {
     ul {
       display: block;
     }
-  }
-
-  ul {
-    background: var(--black-light);
-    position: absolute;
-    // display: none;
-    list-style: none;
-    padding: 10px 5px;
   }
 }
 
 .navbar a {
   position: relative;
 }
+
 .navbar a,
 .navbar span {
-  text-transform: uppercase;
-  text-decoration: none;
   color: var(--white-dark);
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .navbar a:hover::after,
 .active::after {
+  content: "";
+
   position: absolute;
+  z-index: 10;
   bottom: -2px;
   left: 0;
+
   width: 100%;
   height: 2px;
+
   background-color: #fff136;
+
   // opacity: 0;
   transition: 0.3s;
-  content: '';
-  z-index: 10;
 }

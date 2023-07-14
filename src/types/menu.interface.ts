@@ -11,11 +11,11 @@ export interface SecondLevelMenuItem {
 }
 
 export enum FirstLevelMenuRoute {
-  'home',
-  'events',
-  'projects',
-  'locations',
-  'peoples',
-  'blog',
-  'edm-box',
+  "home",
+  "events",
+  "projects",
+  "locations",
+  "peoples",
+  "blog",
+  "edm-box",
 }

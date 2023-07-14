@@ -1,6 +1,6 @@
-import { DetailedHTMLProps, HTMLAttributes, ReactNode } from 'react';
+import { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
 
-export interface NavbarProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {}
+export type NavbarProps = DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>
 
 export interface FirstLevelMenuItem {
   route: FirstLevelMenuRoute;
@@ -15,11 +15,11 @@ export interface SecondLevelMenuItem {
 }
 
 export enum FirstLevelMenuRoute {
-  'home',
-  'events',
-  'projects',
-  'locations',
-  'peoples',
-  'blog',
-  'edm-box',
+  "home",
+  "events",
+  "projects",
+  "locations",
+  "peoples",
+  "blog",
+  "edm-box",
 }
