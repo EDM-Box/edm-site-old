@@ -9,7 +9,7 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
       <Head>
         <title>EDM Box</title>
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
